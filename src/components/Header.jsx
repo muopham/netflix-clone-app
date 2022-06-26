@@ -29,10 +29,10 @@ const Main = () => {
                     <p className='text-base'>{movie.overview}</p>
                 </div>
                 <div className='flex'>
-                    <button className='flex justify-center content-center px-6 py-2 mr-4 bg-neutral-600 text-white font-semibold hover:bg-red-500 transition-all'> 
+                    <button className='flex justify-center content-center px-6 py-2 mr-4 bg-white/30 text-white font-semibold hover:bg-red-500 transition-all'> 
                     <BsPlayFill size={24}/> Phát
                     </button>
-                    <button className='flex justify-center content-center px-6 py-2 mr-4 bg-neutral-600  text-gray-300 font-semibold hover:bg-black '> <AiOutlineCheck size={24}/>Danh sách của tôi</button>
+                    <button className='flex justify-center content-center px-6 py-2 mr-4 bg-white/30  text-gray-300 font-semibold hover:bg-black '> <AiOutlineCheck size={24}/>Danh sách của tôi</button>
                 </div>
             </div>
         </div>
